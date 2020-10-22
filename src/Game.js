@@ -1,3 +1,4 @@
+import detectCollisions from './CollisionDetector'
 import GameObject from './GameObject'
 
 class GameContext {
@@ -26,7 +27,8 @@ class GameContext {
    * Updates all listed Game Objects
    */
   update() {
-    this.gameObjects.forEach((gameObject) => gameObject.update())
+    this.gameObjects.forEach((gameObject) => gameObject.update(this))
+    // console.log(detectCollisions(this.gameObjects))
   }
 
   /**

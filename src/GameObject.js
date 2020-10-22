@@ -3,11 +3,7 @@ import './types'
 class GameObject {
   /**
    * Renderable Object in Game
-   * @param {Object} config Configuration of Object
-   * @param {number} config.width Width of Object
-   * @param {number} config.height Height of Object
-   * @param {Coords} [config.position] Position of Object
-   * @param {Coords} [config.speed] Speed of Object
+   * @param {GameConfig} config
    */
   constructor(config) {
     this.width = config.width

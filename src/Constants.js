@@ -1,4 +1,4 @@
-const TICKS_PER_SECOND = 1
+const TICKS_PER_SECOND = 20
 const GRID_SIZE = 10
 const OBJECT_ZOOM = 10
 
