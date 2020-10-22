@@ -8,7 +8,9 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module'
   },
-  rules: {},
+  rules: {
+    'no-unused-vars': 'warn'
+  },
   parser: '@babel/eslint-parser',
   ignorePatterns: 'dist'
 }
